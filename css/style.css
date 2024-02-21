@@ -1,0 +1,25 @@
+.Terminal__body {
+    background: rgb(40, 40, 40);
+    height: calc(100% - 25px);
+    margin-top: -1px;
+    padding-top: 2px;
+    font-family: "Ubuntu mono";
+}
+.Terminal__text {
+    color: #ddd;
+}
+
+.Terminal__Prompt {
+    margin-top: 10px;
+    display: flex;
+}
+  
+.Prompt__user {
+    color: #87d441;
+}
+.Prompt__location {
+    color: #6d85a9;
+}
+.Prompt__dollar {
+    color: #ddd;
+}
