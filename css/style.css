@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
 body {
-  background: linear-gradient(45deg, #57003f 0%,#f57453 100%);
+  background: rgb(40, 40, 40);
   font-family: 'Ubuntu';
 }
 
@@ -14,8 +14,8 @@ body {
 
 }
 .Terminal {
-  width: 600px;
-  height: 400px;
+  width: 900px;
+  height: 600px;
   box-shadow: 2px 4px 10px rgba(0,0,0,.5);
 }
 
@@ -73,7 +73,7 @@ body {
   margin-bottom: 12px;
 }
 .Terminal__body {
-  background: rgba(56, 4, 40, .9);
+  background: rgba(40, 40, 40);
   height: calc(100% - 25px);
   margin-top: -1px;
   padding-top: 2px;
@@ -103,7 +103,7 @@ body {
   background: white;
   display: block;
   margin-left: 8px;
-  animation: 2000ms ease infinite alternate blink;
+  animation: 500ms ease infinite alternate blink;
 }
 
 @keyframes blink {
