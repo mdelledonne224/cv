@@ -1,0 +1,7 @@
+.DS_Store
+**/.DS_Store
+
+# Source files no usados en deploy
+me.PNG
+*.PNG
+Profile.pdf
